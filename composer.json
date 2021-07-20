@@ -1,0 +1,37 @@
+{
+    "name": "isaeken/paymes-api",
+    "version": "1.0.0",
+    "type": "library",
+    "description": "Paymes API",
+    "keywords": ["paymes", "paym.es"],
+    "homepage": "https://github.com/isaeken/paymes-api",
+    "license": "MIT",
+    "prefer-stable": true,
+    "minimum-stability": "dev",
+    "readme": "README.md",
+    "authors": [
+        {
+            "name": "Isa Eken",
+            "email": "hello@isaeken.com.tr",
+            "homepage": "https://isaeken.com.tr",
+            "role": "Founder"
+        }
+    ],
+    "config": {
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "IsaEken\\Paymes\\": "src"
+        }
+    },
+    "require": {
+        "php": "^7.4|^8.0",
+        "ext-json": "*",
+        "guzzlehttp/guzzle": "7.4.x-dev",
+        "illuminate/support": "^8.50"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "5.4.x-dev"
+    }
+}
