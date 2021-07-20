@@ -28,8 +28,7 @@
     "require": {
         "php": "^7.4|^8.0",
         "ext-json": "*",
-        "guzzlehttp/guzzle": "7.4.x-dev",
-        "illuminate/support": "^8.50"
+        "guzzlehttp/guzzle": "7.4.x-dev"
     },
     "require-dev": {
         "symfony/var-dumper": "5.4.x-dev"

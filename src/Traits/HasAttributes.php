@@ -4,7 +4,8 @@
 namespace IsaEken\Paymes\Traits;
 
 
-use Illuminate\Support\Str;
+
+use IsaEken\Paymes\Str;
 
 trait HasAttributes
 {
